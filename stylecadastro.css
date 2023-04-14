@@ -45,13 +45,13 @@ input[type="submit"] {
     background-color: #328B2A;
     border-color: #328B2A;
     min-width: 300px;
-    border-radius: 12px;
+    border-radius: 36px;
   }
 input[type="text"] {
     width: 35%;
     margin-top: 1rem;
     margin-bottom: 1em;
-    border-radius: 12px;
+    border-radius: 36px;
   }
 /*Class*/
 
