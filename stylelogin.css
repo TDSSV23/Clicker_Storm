@@ -77,3 +77,7 @@ input[type="submit"] {
     color: #ffffff;
     border-radius: 36px;
 }
+
+a {
+    text-decoration: none;
+}
