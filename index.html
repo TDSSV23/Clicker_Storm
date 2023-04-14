@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +8,34 @@
     <link rel="stylesheet" href="stylehome.css">
 </head>
 <body>
-    <div class="main-site">
-        <header>
-            <nav>
-                <img src="img/Logo do Site.png">
-                <li><a>Ação</a></li>
-                <li><a>Aventura</a></li>
-                <li><a>Terror</a></li>
-                <li><a>Mais</a></li>
-                <li><a>Login</a></li>
-                <li><a>Cadastre-se</a></li>
-            </nav>
-        </header>
-        <section></section><article class="main">
-            <h1>Recomendados</h1>
-            <img src="img/God-of-war.png">
-            <img src="img/Lol.png">
-            <img src="img/CodBo2.png">
-            <img src="img/Cuphead.png">
-            <img src="img/Farcry.png">
-            <img src="img/Setinha.png">
-        </article>
-        <aside class="lado">
-            <img src="img/Jonas.png">
-            <img src="img/Home.png">
-            <img src="img/Perfil.png">
-            <img src="img/Alta.png">
-            <img src="img/Contato.png">
-            <img src="img/Lupa.png">
-            <img src="img/Vector.png">
-        </aside>
-        <footer class="rodape">
-            <h1>Novos Jogos</h1>
-            <img src="img/RE8.png">
-            <img src="img/CODcw.png">
-            <img src="img/GTA.png">
-        </footer>
-    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"><img src="img/Home.png"> Home</a>
+        <a href="#"><img src="img/Perfil.png"> Seu perfil</a>
+        <a href="#"><img src="img/Alta.png"> Jogos em alta</a>
+        <a href="#"><img src="img/Contato.png"> Contato</a>
+        <a href="#"><img src="img/Lupa.png"> Buscar jogos</a>
+        <a href="#"><img src="img/Vector.png"> Configurações</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+        <ul>
+            <li><img src="img/Logo do Site.png"></span></li>
+            <li><a href="#">• Ação</a></li>
+            <li><a href="#">• Aventura</a></li>
+            <li><a href="#">• Terror</a></li>
+            <li><a href="#">• Mais</a></li>
+            <li style="float:right"><a class="bordinha" href="cadastro.html">Cadastre-se</a></li>
+            <li style="float:right"><a class="bordinha2" href="login.html">Login</a></li>
+        </ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 </body>
 </html>
