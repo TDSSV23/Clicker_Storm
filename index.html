@@ -12,18 +12,19 @@
     <script src="JavaS.js"></script>
 </head>
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#"><img src="img/Home.png"> Home</a>
-        <a href="#"><img src="img/Perfil.png"> Seu perfil</a>
-        <a href="#"><img src="img/Alta.png"> Jogos em alta</a>
-        <a href="contato.html"><img src="img/Contato.png"> Contato</a>
-        <a href="#"><img src="img/Lupa.png"> Buscar jogos</a>
-        <a href="#"><img src="img/Vector.png"> Configurações</a>
-      </div>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+    <!-- Barra de navegação vertical -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#"><img src="img/Home.png"> Home</a>
+            <a href="#"><img src="img/Perfil.png"> Seu perfil</a>
+            <a href="#"><img src="img/Alta.png"> Jogos em alta</a>
+            <a href="contato.html"><img src="img/Contato.png"> Contato</a>
+            <a href="#"><img src="img/Lupa.png"> Buscar jogos</a>
+            <a href="#"><img src="img/Vector.png"> Configurações</a>
+        </div>
+    <!-- Barra de navegação horizontal-->
         <ul>
-            <li><img class="margem" src="img/Logo do Site.png"></span></li>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><li><img class="margem" src="img/Logo do Site.png"></li></span>
             <li><a href="index.html">• Ação</a></li>
             <li><a href="index.html">• Aventura</a></li>
             <li><a href="index.html">• Terror</a></li>
@@ -31,5 +32,25 @@
             <li style="float:right"><a class="bordinha" href="cadastro.html">Cadastre-se</a></li>
             <li style="float:right"><a class="bordinha2" href="Login.html">Login</a></li>
         </ul>
+    <!-- Jogos 1-->
+    <h1>• Recomendados</h1>
+    <div class="tudão">   
+        <div class="bom-de-guerra">
+            <img src="img/God-of-war.png">
+        </div>
+        <div class="demais-jogos">
+            <div class="lol-cup"><img src="img/Lol.png">
+                <img src="img/Cuphead.png"></div>
+            <div class="cod-far"><img src="img/CodBo2.png">
+                <img src="img/Farcry.png"></div>
+        </div>
+    </div>
+    <!-- Jogos 2-->
+    <h1>• Jogos novos</h1>
+        <div class="jogos">
+            <img src="img/RE8.png">
+            <img src="img/CODcw.png">
+            <img src="img/GTA.png">
+        </div>
 </body>
 </html>

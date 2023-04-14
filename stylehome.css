@@ -4,6 +4,7 @@ body {
     background-size: cover;
     font-family: inter;
     font-weight: 900;
+    color: #FFF;
   }
   
   .sidenav {
@@ -60,6 +61,7 @@ body {
   }
   li {
     float: left;
+    /* qualquer coisa tira isso */ font-size: 40px; 
   }
   li a {
     display: block;
@@ -83,4 +85,47 @@ body {
   }
   .margem {
     margin: 0 50px 0 10px;
+  }
+.demais-jogos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.lol-cup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cod-far {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tudão {
+  display: flex;
+  flex-direction: row;
+}
+.bom-de-guerra img{
+  width: 100%;
+  max-width: 300px;
+  height: 410px;
+  object-fit: cover;
+  margin-right: 50px;
+}
+  .tudão img {
+    border-radius: 10px;
+  }
+  .jogos {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    max-width: 450px;
+    height: 180px;
+    object-fit: cover;
+  }
+  .jogos img {
+    border-radius: 10px;
   }
