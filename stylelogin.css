@@ -66,3 +66,19 @@ input[type="submit"] {
     display: flex;
     flex-direction: row;
 }
+
+.code {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 225px;
+    left: 1000px;
+}
+
+.login {
+    background-color: rgba(19, 18, 18, 0.3);
+    border: 1px solid #252525;
+    color: #ffffff;
+    border-radius: 36px;
+}

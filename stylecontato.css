@@ -48,7 +48,17 @@ input[type="text"] {
     margin-bottom: 1em;
     border-radius: 36px;
 }
-
+input[type="submit"] {
+    display: block;
+    width: 0,5%;
+    margin: 0.5em auto;
+    height: 2em;
+    font-size: 1.3rem;
+    background-color: #328B2A;
+    border-color: #328B2A;
+    min-width: 300px;
+    border-radius: 36px;
+  }
 /*Class*/
 .Temas {
     display: block;
