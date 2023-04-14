@@ -1,0 +1,43 @@
+body {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
+
+.main-site {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-site > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.cabecario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+@media all and (min-width: 600px) {
+    .lado {flex: 1 0 0;}
+}
+
+@media all and (min-width: 800px) {
+    .main   {flex: 3 0px;}
+    .lado {order: 1;}
+    .main   {order: 2;}
+    .rodape {order: 4;}
+}
