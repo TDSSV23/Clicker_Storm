@@ -27,8 +27,8 @@ input {
     font-size: 1.5rem;
 }
 input, textarea {
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
+    background-color: rgba(36, 34, 34, 0.596);
+    border: 1px solid #252525;
     color: #ffffff;
 }
 hr {
