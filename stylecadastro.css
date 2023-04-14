@@ -2,7 +2,9 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    color:#ffffff
+    color:#ffffff;
+    font-family:Inter;
+    font-weight: 700;
 }
 input, textarea {
     background-color: #0a0a23;
