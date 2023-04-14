@@ -46,7 +46,7 @@ input[type="text"] {
     width: 35%;
     margin-top: 1rem;
     margin-bottom: 1em;
-    border-radius: 12px;
+    border-radius: 36px;
 }
 
 /*Class*/
@@ -62,14 +62,14 @@ input[type="text"] {
     width: 250px;
     border: 0;
     border: none;
-    border-radius: 12px;
+    border-radius: 36px;
 
 }
 .contato {
     background-color: rgba(19, 18, 18, 0.226);
     border: 1px solid #252525;
     color: #ffffff;
-    border-radius: 35px;
+    border-radius: 36px;
 }
 .imagem1 {
     display: flex;
