@@ -2,6 +2,8 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: inter;
+    font-weight: 900;
   }
   
   .sidenav {
@@ -78,4 +80,7 @@ body {
     border-radius: 36px;
     padding: 10px 30px;
     background-color: #FC366C;
+  }
+  .margem {
+    margin: 0 50px 0 10px;
   }
