@@ -1,0 +1,101 @@
+body {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Inter;
+}
+
+.cabeçario {
+    text-align: center;
+}
+
+.h3 {
+    text-align: center;
+}
+
+.h4 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: auto;
+    width: 50px;
+    padding-right: 16px;
+}
+.primario {
+    display: block;
+    margin: 0.2rem 0;
+    padding: 6px;
+    font-size: 23px;
+    resize: none;
+    background:rgba(1, 0, 0, 0.295);
+    font-family:Inter;
+    color: white;
+    border: 0;
+    border: none;
+    border-radius: 36px;
+    padding-right: 5px;
+    padding-bottom: 3px; 
+    padding-top: 3px; 
+    text-align: center;
+    text-decoration: none;
+}
+
+.segundario {
+    display: block;
+    margin: 0.2rem 0;
+    padding: 6px;
+    font-size: 23px;
+    resize: none;
+    background:rgba(1, 0, 0, 0.288);
+    font-family:Inter;
+    color: white;
+    border: 0;
+    border: none;
+    border-radius: 36px;
+    padding-right: 5px; 
+
+}
+.terceario {
+    display: block;
+    margin: 0.2rem 0;
+    padding: 12px;
+    font-size: 21px;
+    resize: none;
+    background:rgba(1, 0, 0, 0.219);
+    font-family:Inter;
+    color: white;
+    border: 0;
+    border: none;
+    border-radius: 36px;
+    padding-right: 5px;
+    padding-bottom: 3px; 
+    padding-top: 3px;
+
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    resize: none;
+    background:rgba(1, 0, 0, 0.219);
+    font-family:Inter;
+    color: white;
+    border: 0;
+    border: none;
+    border-radius: 36px;
+}
+footer {
+    text-align: center;
+    align-items: center;
+}
