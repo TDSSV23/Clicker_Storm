@@ -2,4 +2,87 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: inter;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.TUDO {
+    display: flex;
+    flex-direction: row;
+}
+.TUDO2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 37px 0;
+    gap: 40px;
+    border: 2px solid rgb(0, 0, 0,);
+    border-radius: 30px;
+    background-color: rgba(0, 0,0, 0.3);
+    width: 300px;
+}
+
+.profile-picture img {
+    background-color: rgba(89, 84, 84, 0.7);
+    border: 2px solid rgb(89, 84, 84, 0.7);
+    border-radius: 100px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 0,5%;
+    margin: 0.5em;
+    height: 2em;
+    font-size: 1.3rem;
+    color: #FFF;
+    background-color: #6f766f;
+    border-color: #6f766f;
+    min-width: 200px;
+    border-radius: 36px;
+  }
+
+.fav-games {
+    margin: 0 0 0 50px;
+}
+
+.favoritos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: row;
+
+}
+
+.jogos1  {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.borda {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgba(0, 0, 0,);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    height: 290px; 
+}
+
+.histórico {
+    margin: 0 0 0 50px;
+}
+
+.recentes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: row;
 }
