@@ -1,0 +1,78 @@
+body {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ffffff;
+    font-family:Inter;
+    font-weight: 700;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 0.5em auto;
+    background-color: #39EB29;
+    border-color: #39eb29a5;
+    border-radius: 36px;
+    font-size:2.5rem;
+    width: 0,5%;
+    margin: 0.5em auto;
+    min-width: 200px;
+    color:#ffffff;
+
+}
+
+.painel{
+    padding-top: 20px;
+    width: 300px;
+    padding-left: 137px;
+    padding-bottom: 15px;
+}
+
+.pequenas {
+    width: 275px;
+    padding-left: 25px;
+    padding-bottom: 24px;
+}
+
+.Container {
+    margin: 0.5rem 0;
+    resize: none;
+    background:rgba(1, 0, 0, 0.509);
+    font-family:Inter;
+    border: 0;
+    border: none;
+    border-radius: 36px;
+    display: flex;
+}
+
+.img-tudo {
+    display: block;
+}
+.duas-img {
+    display:flex;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    font-size: 32px;
+    text-align: justify;
+    padding-right: 40px;
+    padding-top: 35px;
+    color:#ffffff
+}
+#primeira {
+    width: 250px;
+}
+#segunda {
+    height: 140px;
+}
+
+.roberto-carlos {
+    display: flex;
+    flex-direction: column;
+
+}
