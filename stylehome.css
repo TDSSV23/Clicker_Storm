@@ -62,7 +62,7 @@ body {
   }
   li {
     float: left;
-    /* qualquer coisa tira isso */ font-size: 40px; 
+    /* qualquer coisa tira isso */ font-size: 30px
   }
   li a {
     display: block;
@@ -71,6 +71,14 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
+  .transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+  }
+  .transi:hover {
+    transform: translateY(8px);
+  }
+
   .bordinha2 {
     border: 2px solid #823DB2;
     border-radius: 36px;
@@ -78,11 +86,17 @@ body {
     background-color: #823DB2;
     margin-right: 30px;
   }
+  .bordinha2:hover {
+    background-color: #4c2468;
+  }
   .bordinha {
     border: 2px solid #FC366C;
     border-radius: 36px;
     padding: 10px 30px;
     background-color: #FC366C;
+  }
+  .bordinha:hover {
+    background-color: #7d263d;
   }
   .margem {
     margin: 0 50px 0 10px;
