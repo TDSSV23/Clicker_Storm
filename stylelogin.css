@@ -45,10 +45,10 @@ input[type="submit"] {
     border-color: #328B2A;
     min-width: 300px;
     border-radius: 5px;
+    margin: 0 0 0 500px;
 }
 
   input[type="text"] {
-    width: 35%;
     margin-top: 1rem;
     margin-bottom: 1em;
     border-radius: 5px;
@@ -62,16 +62,20 @@ input[type="submit"] {
     padding-left: 100px;
 }
 
-.code {
-    border-radius: 5px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 226px;
-    left: 1000px;
+.labelzada {
+    display: flex;
+    flex-direction: column;
+}
+
+.qrcode {
+    margin: 130px 270px;
+    display: flex;
+    flex-direction: row;
 }
 
 .login {
+    display: flex;
+    flex-direction: row;
     background-color: rgba(19, 18, 18, 0.3);
     border: 1px solid #252525;
     color: #ffffff;
