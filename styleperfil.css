@@ -32,6 +32,8 @@ body {
     background-color: rgba(89, 84, 84, 0.7);
     border: 2px solid rgb(89, 84, 84, 0.7);
     border-radius: 100px;
+    height: 200px;
+    width: 200px;
 }
 
 button[type="submit"] {
@@ -85,4 +87,13 @@ button[type="submit"] {
     flex-direction: row;
     gap: 20px;
     justify-content: row;
+}
+
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+  .transi:hover {
+    transform: translateY(8px);
 }

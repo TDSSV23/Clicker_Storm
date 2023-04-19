@@ -45,7 +45,7 @@ input[type="submit"] {
     border-color: #328B2A;
     min-width: 300px;
     border-radius: 5px;
-    margin: 0 0 0 500px;
+    margin: 0 0 0 370px;
 }
 
   input[type="text"] {
@@ -68,7 +68,7 @@ input[type="submit"] {
 }
 
 .qrcode {
-    margin: 130px 270px;
+    margin: 130px 120px;
     display: flex;
     flex-direction: row;
 }
