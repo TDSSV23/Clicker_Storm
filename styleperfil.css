@@ -92,6 +92,7 @@ button[type="submit"] {
 .transi {
     transition: transform 0.3s ease-out;
     text-shadow: 2px 2px 1px #1f1f1f;
+    border-radius: 16px;
 }
 
   .transi:hover {
