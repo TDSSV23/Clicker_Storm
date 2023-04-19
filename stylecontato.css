@@ -25,30 +25,19 @@ label {
 input {
     font-size: 1.5rem;
 }
+
 input, textarea {
     background-color: rgba(36, 34, 34, 0.596);
     border: 1px solid #252525;
     color: #ffffff;
 }
-input[type="submit"] {
-    display: block;
-    width: 0,5%;
-    margin: 0.5em auto;
-    height: 2em;
-    font-size: 1.3rem;
-    background-color: #328B2A;
-    border-color: #328B2A;
-    min-width: 300px;
-    border-radius: 12px;
-}
-
 input[type="text"] {
     width: 35%;
     margin-top: 1rem;
     margin-bottom: 1em;
-    border-radius: 36px;
+    border-radius: 26px;
 }
-input[type="submit"] {
+button[type="submit"] {
     display: block;
     width: 0,5%;
     margin: 0.5em auto;
