@@ -44,7 +44,7 @@ button[type="submit"] {
     font-size: 1.3rem;
     color: #FFF;
     background-color: #6f766f;
-    border-color: #6f766f;
+    border: none;
     min-width: 200px;
     border-radius: 36px;
   }
