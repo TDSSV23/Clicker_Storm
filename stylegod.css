@@ -11,7 +11,7 @@ button[type="submit"] {
     display: block;
     margin: 0.5em auto;
     background-color: #39EB29;
-    border-color: #39eb29a5;
+    border: none;
     border-radius: 36px;
     font-size:2.5rem;
     width: 0,5%;
