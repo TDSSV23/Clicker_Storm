@@ -34,6 +34,14 @@ button[type="submit"] {
     padding-left: 25px;
     padding-bottom: 24px;
 }
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+  }
+  .transi:hover {
+    transform: translateY(8px);
+    background-color: rgb(31, 131, 22);
+  }
 
 .Container {
     margin: 0.5rem 0;
