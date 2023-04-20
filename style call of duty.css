@@ -30,18 +30,16 @@ button[type="submit"] {
 
 .painel{
     padding-top: 20px;
-    width: 400px;
-    height: 300px;
-    padding-left: 120px;
+    width: 250px;
+    padding-left: 130px;
     padding-bottom: 15px;
     padding-right: 40px;
 }
 
 .pequenas {
     width: 275px;
-    padding-left: 180px;
+    padding-left: 125px;
     padding-bottom: 24px;
-    text-align: center;
 }
 
 .Container {
