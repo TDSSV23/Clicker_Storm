@@ -31,15 +31,16 @@ button[type="submit"] {
 .painel{
     padding-top: 20px;
     width: 400px;
-    height: 300px;
-    padding-left: 120px;
+    height: 250px;
+    padding-left: 90px;
     padding-bottom: 15px;
     padding-right: 40px;
 }
 
 .pequenas {
-    width: 275px;
-    padding-left: 180px;
+    width: 300px;
+    padding-left: 135px;
+    padding-top: 50px;
     padding-bottom: 24px;
     text-align: center;
 }
@@ -73,12 +74,6 @@ button[type="submit"] {
     padding-right: 40px;
     padding-top: 60px;
     color:#ffffff
-}
-#primeira {
-    width: 250px;
-}
-#segunda {
-    height: 140px;
 }
 
 .terciario {
