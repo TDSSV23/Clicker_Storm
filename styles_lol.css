@@ -11,7 +11,7 @@ button[type="submit"] {
     display: block;
     margin: 0.5em auto;
     background-color: #39EB29;
-    border-color: #39eb29a5;
+    border: none;
     border-radius: 36px;
     font-size:2.5rem;
     width: 0.5%;
@@ -33,15 +33,8 @@ button[type="submit"] {
     width: 400px;
     height: 300px;
     padding-left: 120px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
     padding-right: 40px;
-}
-
-.pequenas {
-    width: 275px;
-    padding-left: 180px;
-    padding-bottom: 24px;
-    text-align: center;
 }
 
 .Container {
@@ -60,6 +53,10 @@ button[type="submit"] {
 }
 .duas-img {
     display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 50px;
 }
 
 .texto {
@@ -68,10 +65,11 @@ button[type="submit"] {
 }
 
 .h2 {
-    font-size: 35px;
+    font-size: 34px;
     text-align: center;
     padding-right: 40px;
     padding-top: 60px;
+    padding-left: 25px;
     color:#ffffff
 }
 #primeira {
