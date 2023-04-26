@@ -5,6 +5,7 @@ body {
     color:#ffffff;
     font-family:Inter;
     font-weight: 700;
+    display: flex;
 }
 
 button[type="submit"] {
