@@ -1,7 +1,7 @@
 /* QUALQUER COISA DIMINUI O TAMANHO DE ACORDO COM A RESOLUÇÃO DO NOTE*/
 body {
     background-image: url("img/Background.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat repeat;
     background-size: cover;
     font-family: inter;
     font-weight: 900;
