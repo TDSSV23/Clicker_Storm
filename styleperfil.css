@@ -31,7 +31,7 @@ body {
 .profile-picture img {
     background-color: rgba(89, 84, 84, 0.7);
     border: 2px solid rgb(89, 84, 84, 0.7);
-    border-radius: 100px;
+    border-radius: 50%;
     height: 200px;
     width: 200px;
 }
