@@ -5,7 +5,7 @@ body {
     color:#ffffff;
     font-family:Inter;
     font-weight: 700;
-    display: flex;
+
 }
 
 button[type="submit"] {
@@ -15,7 +15,7 @@ button[type="submit"] {
     border: none;
     border-radius: 36px;
     font-size:2.5rem;
-    width: 0.5%;
+    width: 0,5%;
     margin: 0.5em auto;
     min-width: 200px;
     color:#ffffff;
@@ -30,21 +30,18 @@ button[type="submit"] {
 }
 
 .painel{
-    padding-top: 20px;
-    width: 400px;
-    height: 300px;
-    padding-left: 120px;
-    padding-bottom: 15px;
-    padding-right: 40px;
+    padding-top: 75px;
+    width: 325px;
+    padding-left: 137px;
+    padding-bottom: 35px;
+    height: 275px;
 }
 
 .pequenas {
-    width: 300px;
-    padding-left: 180px;
-    padding-top: 75px;
+    width: 275px;
+    padding-left: 25px;
     padding-bottom: 24px;
-    text-align: center;
-    height: 200px;
+    height: 175px;
 }
 
 .Container {
@@ -71,7 +68,7 @@ button[type="submit"] {
 }
 
 .h2 {
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
     padding-right: 40px;
     padding-top: 60px;
@@ -81,4 +78,5 @@ button[type="submit"] {
 .terciario {
     display: flex;
     flex-direction: column;
+
 }
