@@ -5,6 +5,7 @@ body {
     color:#ffffff;
     font-family:Inter;
     font-weight: 700;
+    display: flex;
 }
 
 button[type="submit"] {
@@ -30,21 +31,20 @@ button[type="submit"] {
 
 .painel{
     padding-top: 20px;
-    width: 350px;
-    padding-left: 110px;
-    padding-bottom: 65px;
-    padding-right: 60px;
-    padding-top: 35px;
-    height: 290px;
-    border-radius: 36px;
-
+    width: 400px;
+    height: 300px;
+    padding-left: 120px;
+    padding-bottom: 15px;
+    padding-right: 40px;
 }
 
 .pequenas {
-    width: 350px;
-    padding-left: 125px;
+    width: 300px;
+    padding-left: 180px;
+    padding-top: 75px;
     padding-bottom: 24px;
-    height: 240px;
+    text-align: center;
+    height: 200px;
 }
 
 .Container {
@@ -71,7 +71,7 @@ button[type="submit"] {
 }
 
 .h2 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     padding-right: 40px;
     padding-top: 60px;
