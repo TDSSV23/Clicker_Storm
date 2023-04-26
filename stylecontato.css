@@ -39,7 +39,7 @@ input[type="text"] {
 }
 button[type="submit"] {
     display: block;
-    width: 0,5%;
+    width: 0.5%;
     margin: 0.5em auto;
     height: 2em;
     font-size: 1.3rem;
