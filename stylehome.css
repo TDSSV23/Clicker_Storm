@@ -62,7 +62,7 @@ body {
   }
   li {
     float: left;
-    /* qualquer coisa tira isso */ font-size: 30px
+    font-size: 30px
   }
   li a {
     display: block;
