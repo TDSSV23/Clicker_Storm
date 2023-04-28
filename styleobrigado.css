@@ -99,3 +99,54 @@ footer {
     text-align: center;
     align-items: center;
 }
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid #823DB2;
+    background-color: #823DB2;
+    border-radius: 36px;
+    gap: 10px;
+    padding: 10px 20px 10px 20px; 
+}
+.perfil:hover {
+    background-color: #7d263d;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #FC366C;
+    background-color: #FC366C;
+    border-radius: 36px;
+    gap: 10px;
+    padding: 10px 20px 10px 20px; 
+}
+.home:hover {
+    background-color: #4c2468;
+}
+
+.perfil img {
+    width: 50px;
+    height: 60px;
+}
+
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+  .transi:hover {
+    transform: translateY(8px);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
