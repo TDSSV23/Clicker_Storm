@@ -106,6 +106,7 @@ footer {
     justify-content: space-between;
     font-size: 20px;
     margin-bottom: 100px;
+    text-decoration: none;
 }
 
 .home {
@@ -116,9 +117,11 @@ footer {
     border-radius: 36px;
     gap: 10px;
     padding: 10px 20px 10px 20px; 
+    text-decoration: none;
 }
 .perfil:hover {
     background-color: #7d263d;
+    transition: all 0.2s ease-in;
 }
 
 .perfil {
@@ -129,9 +132,11 @@ footer {
     border-radius: 36px;
     gap: 10px;
     padding: 10px 20px 10px 20px; 
+    text-decoration: none;
 }
 .home:hover {
     background-color: #4c2468;
+    transition: all 0.2s ease-in;
 }
 
 .perfil img {

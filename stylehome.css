@@ -85,18 +85,22 @@ body {
     padding: 10px 30px;
     background-color: #823DB2;
     margin-right: 30px;
+    text-decoration: none;
   }
   .bordinha2:hover {
     background-color: #4c2468;
+    transition: all 0.5s ease-in;
   }
   .bordinha {
     border: 2px solid #FC366C;
     border-radius: 36px;
     padding: 10px 30px;
     background-color: #FC366C;
+    text-decoration: none;
   }
   .bordinha:hover {
     background-color: #7d263d;
+    transition: all 0.5s ease-in;
   }
   .margem {
     margin: 0 50px 0 10px;
