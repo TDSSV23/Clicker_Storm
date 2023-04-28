@@ -105,6 +105,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     font-size: 20px;
+    margin-bottom: 100px;
 }
 
 .home {
