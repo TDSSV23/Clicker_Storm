@@ -68,7 +68,7 @@ input[type="submit"] {
 }
 
 .qrcode {
-    margin: 130px 120px;
+    margin: 130px 160px;
     display: flex;
     flex-direction: row;
 }
