@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/Background.png");
+    background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
     color:#ffffff;
@@ -18,15 +18,21 @@ button[type="submit"] {
     margin: 0.5em auto;
     min-width: 200px;
     color:#ffffff;
-
+}
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+  }
+.transi:hover {
+    transform: translateY(8px);
+    background-color: rgb(31, 131, 22);
 }
 
 .painel{
     padding-top: 20px;
-    width: 480px;
-    padding-left: 60px;
+    width: 300px;
+    padding-left: 137px;
     padding-bottom: 15px;
-    height: 400px;
 }
 
 .pequenas {
@@ -34,14 +40,6 @@ button[type="submit"] {
     padding-left: 25px;
     padding-bottom: 24px;
 }
-.transi {
-    transition: transform 0.3s ease-out;
-    text-shadow: 2px 2px 1px #1f1f1f;
-  }
-  .transi:hover {
-    transform: translateY(8px);
-    background-color: rgb(31, 131, 22);
-  }
 
 .Container {
     margin: 0.5rem 0;

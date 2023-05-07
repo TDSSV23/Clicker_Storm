@@ -1,10 +1,11 @@
 body {
-    background-image: url("img/Background.png");
+    background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
     color:#ffffff;
     font-family:Inter;
     font-weight: 700;
+
 }
 
 button[type="submit"] {
@@ -14,7 +15,7 @@ button[type="submit"] {
     border: none;
     border-radius: 36px;
     font-size:2.5rem;
-    width: 0.5%;
+    width: 0,5%;
     margin: 0.5em auto;
     min-width: 200px;
     color:#ffffff;
@@ -29,16 +30,18 @@ button[type="submit"] {
 }
 
 .painel{
-    padding-top: 20px;
-    width: 300px;
+    padding-top: 75px;
+    width: 325px;
     padding-left: 137px;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
+    height: 275px;
 }
 
 .pequenas {
     width: 275px;
     padding-left: 25px;
     padding-bottom: 24px;
+    height: 175px;
 }
 
 .Container {
@@ -70,12 +73,6 @@ button[type="submit"] {
     padding-right: 40px;
     padding-top: 60px;
     color:#ffffff
-}
-#primeira {
-    width: 250px;
-}
-#segunda {
-    height: 140px;
 }
 
 .terciario {

@@ -1,10 +1,11 @@
 body {
-    background-image: url("img/Background.png");
+    background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
     color:#ffffff;
     font-family:Inter;
     font-weight: 700;
+
 }
 
 button[type="submit"] {
@@ -29,12 +30,18 @@ button[type="submit"] {
 }
 
 .painel{
-    padding-top: 20px;
-    width: 500px;
-    height: 300px;
-    padding-left: 120px;
-    padding-bottom: 50px;
-    padding-right: 40px;
+    padding-top: 75px;
+    width: 340px;
+    padding-left: 137px;
+    padding-bottom: 55px;
+    height: 250px;
+}
+
+.pequenas {
+    width: 250px;
+    padding-left: 25px;
+    padding-bottom: 24px;
+    height: 160px;
 }
 
 .Container {
@@ -53,10 +60,6 @@ button[type="submit"] {
 }
 .duas-img {
     display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 10px;
-    margin-left: 50px;
 }
 
 .texto {
@@ -65,21 +68,16 @@ button[type="submit"] {
 }
 
 .h2 {
-    font-size: 34px;
+    font-size: 29px;
     text-align: center;
     padding-right: 40px;
     padding-top: 60px;
+    color:#ffffff;
     padding-left: 25px;
-    color:#ffffff
-}
-#primeira {
-    width: 250px;
-}
-#segunda {
-    height: 140px;
 }
 
 .terciario {
     display: flex;
     flex-direction: column;
+
 }
