@@ -1,23 +1,38 @@
 body {
-    background-image: url("../../img/Background.png");
-    background-repeat: no-repeat repeat;
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    font-family: inter;
-    font-weight: 900;
-    color: #FFF;
+    color:#ffffff;
+    font-family:Inter;
+    font-weight: 700;
+
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 0.5em auto;
+    background-color: #39EB29;
+    border: none;
+    border-radius: 36px;
+    font-size:2.5rem;
+    width: 0.5%;
+    margin: 0.5em auto;
+    min-width: 200px;
+    color:#ffffff;
+}
+/*Css do Movimento*/
+
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
   }
-.Container {
-    display:flex;
-    flex-direction: column;
+.transi:hover {
+    transform: translateY(8px);
+    background-color: rgb(31, 131, 22);
 }
 
-.terciario {
-    display: flex;
-    flex-direction: column;
+/*Imagens*/
 
-}
-
-/*Css das Imagens*/
 .painel{
     padding-top: 75px;
     width: 325px;
@@ -32,8 +47,41 @@ body {
     padding-bottom: 24px;
     height: 175px;
 }
+.img-tudo {
+    display: block;
+}
+.duas-img {
+    display:flex;
+}
 
-/*Css dos Textos*/
+/*Div Principal*/
+
+.Container {
+    margin: 0.5rem 0;
+    resize: none;
+    background:rgba(1, 0, 0, 0.509);
+    font-family:Inter;
+    border: 0;
+    border: none;
+    border-radius: 36px;
+    display: flex;
+}
+
+/*Divs Segundarios*/
+
+.segundario {
+    display: flex;
+    flex-direction: column;
+}
+
+.terciario {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/*Texto*/
 
 .texto {
     display: flex;
