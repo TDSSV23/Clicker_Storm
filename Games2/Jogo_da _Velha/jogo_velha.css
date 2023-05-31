@@ -6,28 +6,18 @@ body {
     font-weight: 900;
     color: #FFF;
   }
-
-  button[type="submit"] {
-    display: block;
-    margin: 0.5em auto;
-    background-color: #39EB29;
-    border: none;
-    border-radius: 36px;
-    font-size:2.5rem;
-    width: 0.5%;
-    margin: 0.5em auto;
-    min-width: 200px;
-    color:#ffffff;
-}
-.transi {
-    transition: transform 0.3s ease-out;
-    text-shadow: 2px 2px 1px #1f1f1f;
-  }
-.transi:hover {
-    transform: translateY(8px);
-    background-color: rgb(31, 131, 22);
+.Container {
+    display:flex;
+    flex-direction: column;
 }
 
+.terciario {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*Css das Imagens*/
 .painel{
     padding-top: 75px;
     width: 325px;
@@ -43,23 +33,7 @@ body {
     height: 175px;
 }
 
-.Container {
-    margin: 0.5rem 0;
-    resize: none;
-    background:rgba(1, 0, 0, 0.509);
-    font-family:Inter;
-    border: 0;
-    border: none;
-    border-radius: 36px;
-    display: flex;
-}
-
-.img-tudo {
-    display: block;
-}
-.duas-img {
-    display:flex;
-}
+/*Css dos Textos*/
 
 .texto {
     display: flex;
@@ -72,10 +46,4 @@ body {
     padding-right: 40px;
     padding-top: 60px;
     color:#ffffff
-}
-
-.terciario {
-    display: flex;
-    flex-direction: column;
-
 }
