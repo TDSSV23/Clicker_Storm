@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- JavaScript -->
+    <script src="JS/script.js"></script>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Jogo da Velha</h1>
+        </section>
+        <section class="tabuleiro">
+            <div class="">
+                <input type="button" value=" " id="btn1" onclick="clickbtn1()">
+                 <input type="button" value=" " id="btn2" onclick="clickbtn2()">
+                  <input type="button" value=" " id="btn3" onclick="clickbtn3()">
+            </div>
+            <div class="">
+                <input type="button" value=" " id="btn4" onclick="clickbtn4()">
+                 <input type="button" value=" " id="btn5" onclick="clickbtn5()">
+                  <input type="button" value=" " id="btn6" onclick="clickbtn6()">
+            </div>
+            <div class="">
+                <input type="button" value=" " id="btn7" onclick="clickbtn7()">
+                 <input type="button" value=" " id="btn8" onclick="clickbtn8()">
+                  <input type="button" value=" " id="btn9" onclick="clickbtn9()"> 
+            </div>
+        </section>
+        <section>
+            <h2>
+                <span id="lbljogador">Jogador X</span>
+                <span id="lbljogadas">(1ª jogada)</span> 
+            </h2>
+
+            <input type="button" value="Reiniciar" id="btnreiniciar" onclick="clickreiniciar()">
+
+        </section>
+    </main>
+</body>
+</html>
