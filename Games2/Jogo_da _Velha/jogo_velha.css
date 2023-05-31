@@ -7,54 +7,75 @@ body {
     color: #FFF;
   }
 
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  li {
-    float: left;
-    font-size: 30px
-  }
-  li a {
+  button[type="submit"] {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .transi {
+    margin: 0.5em auto;
+    background-color: #39EB29;
+    border: none;
+    border-radius: 36px;
+    font-size:2.5rem;
+    width: 0.5%;
+    margin: 0.5em auto;
+    min-width: 200px;
+    color:#ffffff;
+}
+.transi {
     transition: transform 0.3s ease-out;
     text-shadow: 2px 2px 1px #1f1f1f;
   }
-  .transi:hover {
+.transi:hover {
     transform: translateY(8px);
-  }
-  .bordinha2 {
-    border: 2px solid #823DB2;
+    background-color: rgb(31, 131, 22);
+}
+
+.painel{
+    padding-top: 75px;
+    width: 325px;
+    padding-left: 137px;
+    padding-bottom: 35px;
+    height: 275px;
+}
+
+.pequenas {
+    width: 275px;
+    padding-left: 25px;
+    padding-bottom: 24px;
+    height: 175px;
+}
+
+.Container {
+    margin: 0.5rem 0;
+    resize: none;
+    background:rgba(1, 0, 0, 0.509);
+    font-family:Inter;
+    border: 0;
+    border: none;
     border-radius: 36px;
-    padding: 10px 30px;
-    background-color: #823DB2;
-    margin-right: 30px;
-    text-decoration: none;
-  }
-  .bordinha2:hover {
-    background-color: #4c2468;
-    transition: all 0.5s ease-in;
-  }
-  .bordinha {
-    border: 2px solid #FC366C;
-    border-radius: 36px;
-    padding: 10px 30px;
-    background-color: #FC366C;
-    text-decoration: none;
-  }
-  .bordinha:hover {
-    background-color: #7d263d;
-    transition: all 0.5s ease-in;
-  }
-  .margem {
-    margin: 0 50px 0 10px;
-  }
+    display: flex;
+}
+
+.img-tudo {
+    display: block;
+}
+.duas-img {
+    display:flex;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 60px;
+    color:#ffffff
+}
+
+.terciario {
+    display: flex;
+    flex-direction: column;
+
+}
