@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonte do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JavaScript -->
+    <script src="JS/script.js"></script>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Jogo da Velha</h1>
+        </section>
+        <section class="tabuleiro">
+            <div class="">
+                <input class="vermelho" type="button" value=" " id="btn1" onclick="clickbtn1()" class="borda1">
+                 <input class="vermelho" type="button" value=" " id="btn2" onclick="clickbtn2()" class="borda2">
+                  <input class="vermelho" type="button" value=" " id="btn3" onclick="clickbtn3()" class="borda3">
+            </div>
+            <div class="">
+                <input class="branco" type="button" value=" " id="btn4" onclick="clickbtn4()" class="borda4">
+                 <input class="branco-amarelo" type="button" value=" " id="btn5" onclick="clickbtn5()" class="borda5">
+                  <input class="branco" type="button" value=" " id="btn6" onclick="clickbtn6()" class="borda6">
+           </div>
+            <div class="">
+                <input class="verde" type="button" value=" " id="btn7" onclick="clickbtn7()" class="borda7">
+                <input class="verde" type="button" value=" " id="btn8" onclick="clickbtn8()" class="borda8">
+                <input class="verde" type="button" value=" " id="btn9" onclick="clickbtn9()" class="borda9">
+            </div>
+        </section>
+        <section>
+            <h2>
+
+                <span id="lbljogador">Jogador X</span>
+                <span id="lbljogadas">(1ª Jogada)</span>
+
+            </h2>
+
+            <input type="button" value="Reiniciar" class="reset" 
+            id="btnReiniciar" onclick="clickReiniciar()">
+        </section>
+    </main>
+</body>
+</html>
