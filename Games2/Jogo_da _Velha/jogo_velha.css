@@ -35,23 +35,16 @@ button[type="submit"] {
 
 .painel{
     padding-top: 75px;
-    width: 325px;
+    width: 375px;
     padding-left: 137px;
     padding-bottom: 35px;
-    height: 275px;
+    height: 470px;
+    padding-right: 60px;
 }
 
-.pequenas {
-    width: 275px;
-    padding-left: 25px;
-    padding-bottom: 24px;
-    height: 175px;
-}
+
 .img-tudo {
     display: block;
-}
-.duas-img {
-    display:flex;
 }
 
 /*Div Principal*/
@@ -74,12 +67,6 @@ button[type="submit"] {
     flex-direction: column;
 }
 
-.terciario {
-    display: flex;
-    flex-direction: column;
-
-}
-
 
 /*Texto*/
 
@@ -95,3 +82,11 @@ button[type="submit"] {
     padding-top: 60px;
     color:#ffffff
 }
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/*Slide Nav*/
+
