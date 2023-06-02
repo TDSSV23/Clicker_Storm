@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 50px;
     color:rgba(0, 0, 0, 0.753);
     text-shadow: 6px 3px 25px #2b00ff , 0 0 5px rgb(255, 0, 0);
     margin-bottom: 35px;
@@ -16,6 +16,7 @@ h2 {
     font-size: 30px;
     color:rgba(0, 0, 0, 0.753);
     text-shadow: 6px 3px 25px #2b00ff , 0 0 5px rgb(255, 0, 0);
+    font-size: 40px;
 }
 
 main {
@@ -23,8 +24,8 @@ main {
 }
 
 .tabuleiro div input{
-    width: 100px;
-    height: 100px;
+    width: 256px;
+    height: 256px;
     border:1px solid black;
     margin:2px;
     border-radius: 6px;
@@ -32,13 +33,20 @@ main {
     cursor:pointer;
 }
 
-input[type=button] {
-    background-color: #000000;
-    color:aquamarine;
-    font-family: cursive;
-    font-size: 20px;
-    text-shadow: 6px 3px 25px #2b00ff , 0 0 5px rgb(255, 0, 0);
+.containerPersonagens div input {
+    width: 256px;
+    height: 256px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: gray;
+    align-items: center;
 }
+
+/*Tamanho das imagens*/
+
 
 /*Cores dos Quadrados*/
 

@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--Fonte do Google-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Jogo da Velha</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- JavaScript -->
-    <script src="JS/script.js"></script>
-    <title>Jogo da Velha</title>
 </head>
+
 <body>
-    <main>
+    <main class="intro"> 
         <section>
             <h1>Jogo da Velha</h1>
         </section>
-        <section class="tabuleiro">
+
+        <section id="containerPersonagens" class="containerPersonagens">
+            <h2>Selecione o <span id="ordemPersonagem">1º</span> personagem</h2>
+            <div>
+                <input type="button" value=" " id="poke1" onclick="clickPoke('charmander', 'poke1')">
+                <input type="button" value=" " id="poke2" onclick="clickPoke('squirtle', 'poke2')">
+                <input type="button" value=" " id="poke3" onclick="clickPoke('bulbasaur', 'poke3')">
+            </div>
+            <div>
+                <input type="button" value=" " id="poke4" onclick="clickPoke('pikachu', 'poke4')">
+                <input type="button" value=" " id="poke5" onclick="clickPoke('butterfree', 'poke5')">
+                <input type="button" value=" " id="poke6" onclick="clickPoke('pidgeotto', 'poke6')">
+            </div>
+        </section>
+
+        <section id="containerTabuleiro" class="tabuleiro">
+
             <div class="">
                 <input class="vermelho" type="button" value=" " id="btn1" onclick="clickbtn1()" class="borda1">
                  <input class="vermelho" type="button" value=" " id="btn2" onclick="clickbtn2()" class="borda2">
@@ -38,18 +48,20 @@
                 <input class="verde" type="button" value=" " id="btn8" onclick="clickbtn8()" class="borda8">
                 <input class="verde" type="button" value=" " id="btn9" onclick="clickbtn9()" class="borda9">
             </div>
-        </section>
-        <section>
-            <h2>
 
-                <span id="lbljogador">Jogador X</span>
-                <span id="lbljogadas">(1ª Jogada)</span>
+            <section>
+                <h2>
+                    <span id="lblJogador">Jogador 1</span>
+                    <span id="lblJogadas">(1ª Jogada)</span>
+                </h2>
 
-            </h2>
-
-            <input type="button" value="Reiniciar" class="reset" 
-            id="btnReiniciar" onclick="clickReiniciar()">
+                <input type="button" value="Reiniciar" id="btnReiniciar" onclick="clickReiniciar()">
+            </section>
         </section>
     </main>
+
+    <!-- JavaScript -->
+    <script src="JS/script.js" defer></script>
 </body>
+
 </html>
