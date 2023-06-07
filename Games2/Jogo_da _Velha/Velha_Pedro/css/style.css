@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA6IoypVks74a6YdyZ2mPy_Vw8TjZwBkt2wg&usqp=CAU);
+    text-align: center;
+
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    width: 800px;
+}
+
+main{
+    text-align: center;
+
+}
+.tabuleiro div input{
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
