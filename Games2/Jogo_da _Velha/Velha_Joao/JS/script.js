@@ -401,7 +401,6 @@ function clickPoke(pokemonSelecionado, botao) {
     let lblOrdemPersonagem = document.getElementById('ordemPersonagem');
     if (jogador1 == null) {
         jogador1 = jogadorSelecionado;
-        btn.value = 'JOGADOR 1';
         lblOrdemPersonagem.innerText = '2º'
     } else {
         if(jogadorSelecionado== jogador1) {
@@ -409,13 +408,11 @@ function clickPoke(pokemonSelecionado, botao) {
             return;
         }
         jogador2 = jogadorSelecionado;
-        btn.value = 'JOGADOR 2';
         sectionPersonagens.style.display = 'none'
         sectionTabuleiro.style.display = 'block';
+        
     }
 
-    btn.style.backgroundColor = 'red';
-    btn.style.color = 'white';
 
 }
 
@@ -473,8 +470,6 @@ function clickReiniciar() {
     //Reniciar Palavra
         let lblOrdemPersonagem = document.getElementById('ordemPersonagem');
         lblOrdemPersonagem.innerText = '1º'
-
-
 }
 
 
