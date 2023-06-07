@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.714);
+}
+
+h1 {
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+}

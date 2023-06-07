@@ -1,0 +1,149 @@
+body {
+    background-image: url("../../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ffffff;
+    font-family:Inter;
+    font-weight: 700;
+
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 0.5em auto;
+    background-color: #39EB29;
+    border: none;
+    border-radius: 36px;
+    font-size:2.5rem;
+    width: 0.5%;
+    margin: 0.5em auto;
+    min-width: 200px;
+    color:#ffffff;
+}
+/*Css do Movimento*/
+
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+  }
+.transi:hover {
+    transform: translateY(8px);
+    background-color: rgb(31, 131, 22);
+}
+
+/*Imagens*/
+
+.painel{
+    padding-top: 75px;
+    width: 375px;
+    padding-left: 137px;
+    padding-bottom: 35px;
+    height: 470px;
+    padding-right: 60px;
+}
+
+
+.img-tudo {
+    display: block;
+}
+
+/*Div Principal*/
+
+.Container {
+    margin: 0.5rem 0;
+    resize: none;
+    background:rgba(1, 0, 0, 0.509);
+    font-family:Inter;
+    border: 0;
+    border: none;
+    border-radius: 36px;
+    display: flex;
+}
+
+/*Divs Segundarios*/
+
+.segundario {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Texto*/
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 60px;
+    color:#ffffff
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.descricao {
+    font-size: 20px;
+}
+
+
+
+/*Slide Nav*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .navbar {
+    margin: 40px 0 0 20px;
+}
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* Edição de bordas*/
+  .borda {
+    margin: 15px 0 0 30px;
+    height: 80px;
+    width: 80px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 236);
+  }
