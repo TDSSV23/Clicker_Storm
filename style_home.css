@@ -112,7 +112,14 @@ body {
   align-items: center;
   gap: 30px;
 }
-.lol-cup {
+
+.demais-jogos img {
+  width: 100%;
+  max-width: 340px;
+  height: 100%;
+  max-height: 200px;
+}
+.j1-j2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -126,11 +133,10 @@ body {
   display: flex;
   flex-direction: row;
 }
-.bom-de-guerra img{
+.Jogo_da_Velha img{
   width: 100%;
   max-width: 300px;
-  height: 410px;
-  object-fit: cover;
+  height: 450px;
   margin-right: 50px;
 }
   .tudão img {
@@ -157,8 +163,8 @@ body {
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
-    height: 400px; 
-    width: 1080px;
+    height: 450px; 
+    width: 700px;
 }
 
   .borda2 {
