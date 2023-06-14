@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-
-    <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="CSS/style.css">
-
-    <!-- JavaScript -->
-    <script src="JS/script.js"></script>
-    <title>Jogo da Velha</title>
-    
-    <!--Logo do site-->
-        <link rel="icon" href="../../img/Logo_do_Site.png">
-
 </head>
+
 <body>
     <main>
         <section>
-            <h1>Jogo da Velha</h1>
+            <h1>JOGO DA VELHA</h1>
         </section>
-        <section class="tabuleiro">
-            <div class="">
-                <input type="button" value=" " id="btn1" onclick="clickbtn1()">
-                 <input type="button" value=" " id="btn2" onclick="clickbtn2()">
-                  <input type="button" value=" " id="btn3" onclick="clickbtn3()">
+
+        <section id="containerPersonagens" class="containerPersonagens">
+            <h2>SELECIONE O <span id="ordemPersonagem">1º</span> PERSONAGEM</h2>
+            <div>
+                <input type="button" value=" " id="poke1" onclick="clickPoke('charmander')">
+                <input type="button" value=" " id="poke2" onclick="clickPoke('squirtle')">
+                <input type="button" value=" " id="poke3" onclick="clickPoke('bulbasaur')">
             </div>
-            <div class="">
-                <input type="button" value=" " id="btn4" onclick="clickbtn4()">
-                 <input type="button" value=" " id="btn5" onclick="clickbtn5()">
-                  <input type="button" value=" " id="btn6" onclick="clickbtn6()">
-            </div>
-            <div class="">
-                <input type="button" value=" " id="btn7" onclick="clickbtn7()">
-                 <input type="button" value=" " id="btn8" onclick="clickbtn8()">
-                  <input type="button" value=" " id="btn9" onclick="clickbtn9()"> 
+            <div>
+                <input type="button" value=" " id="poke4" onclick="clickPoke('pikachu')">
+                <input type="button" value=" " id="poke5" onclick="clickPoke('butterfree')">
+                <input type="button" value=" " id="poke6" onclick="clickPoke('pidgeotto')">
             </div>
         </section>
-        <section>
-            <h2>
-                <span id="lbljogador">Jogador X</span>
-                <span id="lbljogadas">(1ª jogada)</span> 
-            </h2>
 
-            <input type="button" value="Reiniciar" id="btnreiniciar" onclick="clickreiniciar()">
+        <section id="containerTabuleiro" class="tabuleiro">
+            <div>
+                <input type="button" value=" " id="btn1" onclick="clickBtn1()">
+                <input type="button" value=" " id="btn2" onclick="clickBtn2()">
+                <input type="button" value=" " id="btn3" onclick="clickBtn3()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn4" onclick="clickBtn4()">
+                <input type="button" value=" " id="btn5" onclick="clickBtn5()">
+                <input type="button" value=" " id="btn6" onclick="clickBtn6()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn7" onclick="clickBtn7()">
+                <input type="button" value=" " id="btn8" onclick="clickBtn8()">
+                <input type="button" value=" " id="btn9" onclick="clickBtn9()">
+            </div>
 
+            <section>
+                <h2>
+                    <span id="lblJogador">JOGADOR 1</span>
+                    <span id="lblJogadas">(1ª JOGADA)</span>
+                </h2>
+
+                <input type="button" value="Reiniciar" id="btnReiniciar" onclick="clickReiniciar()">
+            </section>
         </section>
     </main>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
