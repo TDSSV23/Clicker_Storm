@@ -1,32 +1,43 @@
 body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA6IoypVks74a6YdyZ2mPy_Vw8TjZwBkt2wg&usqp=CAU);
+    background-color: rgb(11, 3, 3);
+    background-size: 100%;
+    background-image: url(https://img.elo7.com.br/product/zoom/1E45F37/painel-de-aniversario-vila-chaves-2-50x2-20m-decoracao-decoracao-de-festa.jpg);
+    background-clip: url(Esse pato dançar muito bem  amorasinha.mp3);
+
+}
+
+main {
     text-align: center;
-
+    color:rgb(255, 255, 255);
 }
 
-h1{
-    font-size: 80px;
-    color: rgb(255, 255, 255);
-}
-
-h2{
-    color: rgb(255, 255, 255);
-}
-
-hr{
-    width: 800px;
-}
-
-main{
-    text-align: center;
-
-}
-.tabuleiro div input{
-    width: 130px;
-    height: 130px;
+.tabuleiro div input {
+    width: 100px;
+    height: 100px;
     margin: 5px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 20px;
+    border: 1px solid rgb(42, 223, 230);
+    border-radius: 6px;
     font-size: 30px;
     cursor: pointer;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+
+    /* background-image: url('../img/vazio.png'); */
+
+.containerPersonagens div input {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
 }
