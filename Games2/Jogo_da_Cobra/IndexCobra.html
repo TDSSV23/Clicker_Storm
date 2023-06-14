@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Cobrinha</title>
+    <title>Campo Minado</title>
+
+    <!--Link da Fonte do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
 
     <!--Link Java-->
     <script src="JavaS.js"></script>
@@ -14,43 +19,34 @@
     <!--Logo do site-->
     <link rel="icon" href="../../img/Logo_do_Site.png">
 
+
 </head>
 <body>
-
-        <div class="Container">
-        <!--Lista-->
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="Snake_Arthur/index.html" class="Arthur">Versão Arthur</a>
-                <a href="Snake_Beatriz/index.html" class="Beatriz">Versão Beatriz</a>
-                <a href="Snake_Erick/index.html" class="Erick">Versão Erick</a>
-                <a href="Snake-João/index.html" class="Joao">Versão João</a>
-                <!-- <a href="Snake_Pedro/index.html" class="Pedro">Versão Pedro</a> -->
-                <a href="Snake_Tainara/index.html" class="Tainara">Versão Tainara</a>
-            </div>
-        <!--Painel Primairio-->
-            <div class="img-tudo">
-                <img src="../../img/Cobrinha_logo.png" alt="Painel do Jogo da Velha" class="painel">
-            
-        <!--Painel Segundario -->   
-    
-            </div>
-            <div class="terciario"><div class="texto">
-                <p class="h2"> Descrição do jogo:</p><br>
-                <p class="descricao">Esse é um jogo onde você é uma cobrinha e tem que coletar frutinhas para aumentar seu tamanho. Aqui temos uma versão para cada fundador do site, onde você pode escolher qual versão de cada pessoa jogar. É isso, divirta-se!</p>
-
-
-
-        <br>
-        <br>
-        <br>
-    
-                <div class="botão"><button type="submit" formaction="" class="transi" onclick="openNav()">Jogar</button></div>
-            </div>
+    <div class="principal">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="Snake_Arthur/index.html" class="Arthur">Versão Arthur</a>
+            <a href="Snake_Beatriz/index.html" class="Beatriz">Versão Beatriz</a>
+            <a href="Snake_Erick/index.html" class="Erick">Versão Erick</a>
+            <a href="Snake-João/index.html" class="Joao">Versão João</a>
+            <a href="Velha_Pedro/index.html" class="Pedro">Versão Pedro</a>
+            <a href="Snake_Tainara/index.html" class="Tainara">Versão Tainara</a>
         </div>
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../../img/logo-site-beatriz.png" alt="logo do site" class="transi">
+            </a>
         </div>
-    
-    
-    
+        <div class="texto">
+            <h1>Jogo da Cobrinha</h1>
+                <h2>Clickers Anonymous - Arcade e um Jogador</h2>
+                <p>Esse jogo, você controla uma cobra, onde é necessário coletar frutinhas para aumentar seu tamanho, até cobrir todo o mapa.
+                <br>Aqui temos a versão dos criadores do site, onde você pode escolher qual jogar no botão "Escolher Versão</p>
+        </div>
+        <div class="botoes">
+            <div class="botão-jogar"><button type="submit" formaction="" class="transi2" onclick="openNav()">Escolher Versão</button></div>
+            <button class="botão-fav transi2"><img class="fav-img" src="../../img/fav.png"></button>
+        </div>
+    </div>
 </body>
 </html>

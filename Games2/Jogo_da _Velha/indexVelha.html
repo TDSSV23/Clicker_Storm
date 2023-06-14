@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Velha</title>
+    <title>Campo Minado</title>
+
+    <!--Link da Fonte do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
 
     <!--Link Java-->
     <script src="JavaS.js"></script>
@@ -14,51 +19,34 @@
     <!--Logo do site-->
     <link rel="icon" href="../../img/Logo_do_Site.png">
 
+
 </head>
 <body>
-    
-    
-
-    
-        <div class="Container">
-        <!--Lista-->
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="Velha_Arthur/index.html" class="Arthur">Versão Arthur</a>
-                <a href="Velha_Beatriz/index.html" class="Beatriz">Versão Beatriz</a>
-                <a href="Velha_Erick/index.html" class="Erick">Versão Erick</a>
-                <a href="Velha_Joao/jogo1.html" class="Joao">Versão João</a>
-                <a href="Velha_Pedro/index.html" class="Pedro">Versão Pedro</a>
-                <a href="Velha_Tainara/index.html" class="Tainara">Versão Tainara</a>
-            </div>
-        <!--Painel Primairio-->
-            <div class="img-tudo">
-                <img src="../../img/Velha_logo.png" alt="Painel do Jogo da Velha" class="painel">
-            
-    
-        <!--Painel Segundario -->   
-    
-
-
-            </div>
-            <div class="terciario"><div class="texto">
-                <p class="h2"> Descrição do jogo:</p><br>
-                <p class="descricao">Jogo da Velha, é um jogo de duas pessoas, onde a primeira pessoa à conseguir terminar uma linha, seja em qualquer direção com a sua letra,<br>
-                ganha a rodada e se caso nenhuma das pessoas conseguirem, o jogo empata.<br> Aqui nós temos uma versão para cada fundador do site, onde você<br>
-                pode escolher qual versão de cada pessoa jogar. É isso, se divirta!</p>
-
-
-
-        <br>
-        <br>
-        <br>
-    
-                <div class="botão"><button type="submit" formaction="" class="transi" onclick="openNav()">Jogar</button></div>
-            </div>
+    <div class="principal">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="Velha_Arthur/index.html" class="Arthur">Versão Arthur</a>
+            <a href="Velha_Beatriz/index.html" class="Beatriz">Versão Beatriz</a>
+            <a href="Velha_Erick/index.html" class="Erick">Versão Erick</a>
+            <a href="Velha_Joao/jogo1.html" class="Joao">Versão João</a>
+            <a href="Velha_Pedro/index.html" class="Pedro">Versão Pedro</a>
+            <a href="Velha_Tainara/index.html" class="Tainara">Versão Tainara</a>
         </div>
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../../img/logo-site-beatriz.png" alt="logo do site" class="transi">
+            </a>
         </div>
-    
-    
-    
+        <div class="texto">
+            <h1>Jogo da Velha</h1>
+                <h2>Clickers Anonymous - Estratégia e 2 Jogadores</h2>
+                <p>Jogo da velha, é um jogo de duas pessoas, onde a primeira à conseguir terminar uma linha, coluna ou diagonal com a sua letra, ganha a rodada, e se caso nenhuma conseguir, o jogo empata e da "Velha".
+                <br>Aqui temos a versão dos criadores do site, onde você pode escolher qual jogar no botão "Escolher Versão</p>
+        </div>
+        <div class="botoes">
+            <div class="botão-jogar"><button type="submit" formaction="" class="transi2" onclick="openNav()">Escolher Versão</button></div>
+            <button class="botão-fav transi2"><img class="fav-img" src="../../img/fav.png"></button>
+        </div>
+    </div>
 </body>
 </html>

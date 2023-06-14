@@ -1,100 +1,99 @@
+html,
 body {
-    background-image: url("../../img/Background.png");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, transparent 0%, #181818df 25%), url("../../img/Jogo_da_velha_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    color:#ffffff;
-    font-family:Inter;
-    font-weight: 700;
-
+    color: #fff;
+    font-family: 'Plus Jakarta Sans';
+    text-shadow: -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black, 1px 0px 0px black;
 }
 
-button[type="submit"] {
-    display: block;
-    margin: 0.5em auto;
-    background-color: #39EB29;
-    border: none;
-    border-radius: 36px;
-    font-size:2.5rem;
-    width: 0.5%;
-    margin: 0.5em auto;
-    min-width: 200px;
-    color:#ffffff;
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
 }
-/*Css do Movimento*/
 
+.logo img {
+    margin-top: 20px;
+    height: 100px;
+    width: 170px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+button[type=submit] {
+    height: 70px;
+    width: 155px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(43, 41, 41);
+    color: #f5f5f5;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.botão-fav {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(43, 43, 43);
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+.botão-fav img {
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(139, 139, 139);
+    padding-left: 15px;
+}
+
+p {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.856);
+    padding-left: 15px;
+}
+
+/*TRANSIÇÕES*/
 .transi {
     transition: transform 0.3s ease-out;
     text-shadow: 2px 2px 1px #1f1f1f;
-  }
+}
+
 .transi:hover {
     transform: translateY(8px);
-    background-color: rgb(31, 131, 22);
 }
 
-/*Imagens*/
-
-.painel{
-    padding-top: 75px;
-    width: 375px;
-    padding-left: 137px;
-    padding-bottom: 35px;
-    height: 470px;
-    padding-right: 60px;
+.transi2:hover {
+    background-color: rgb(61, 61, 61);
+    border: 2px solid #FFF;
 }
 
-
-.img-tudo {
-    display: block;
-}
-
-/*Div Principal*/
-
-.Container {
-    margin: 0.5rem 0;
-    resize: none;
-    background:rgba(1, 0, 0, 0.509);
-    font-family:Inter;
-    border: 0;
-    border: none;
-    border-radius: 36px;
-    display: flex;
-}
-
-/*Divs Segundarios*/
-
-.segundario {
-    display: flex;
-    flex-direction: column;
-}
-
-
-/*Texto*/
-
-.texto {
-    display: flex;
-    flex-direction: column;
-}
-
-.h2 {
-    font-size: 32px;
-    text-align: center;
-    padding-right: 40px;
-    padding-top: 60px;
-    color:#ffffff
-}
-a {
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-size: 20px;
-}
-
-.descricao {
-    font-size: 20px;
-}
-
-
-
-/*Slide Nav*/
+/*SIDE NAV*/
 .sidenav {
     height: 100%;
     width: 0;
@@ -102,48 +101,53 @@ a {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgba(14, 14, 14, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
 
-  .navbar {
+.navbar {
     margin: 40px 0 0 20px;
 }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
 
-  /* Edição de bordas*/
-  .borda {
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* Edição de bordas*/
+.borda {
     margin: 15px 0 0 30px;
     height: 80px;
     width: 80px;
     border: 5px solid black;
     border-radius: 50%;
     background-color: rgb(236, 236, 236);
-  }
+}
