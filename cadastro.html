@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,27 +9,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style_cadastro.css">
-    <link rel="icon" href="img/Logo_do_Site.png">
+    <link rel="icon" href="img/Logo_beatriz_limpa.png">
     <title>Cadastro</title>
 </head>
 <body>
-    <header>
-        <h1 class="header" id="h1">Cadastro</h1>
-        <h3 class="header">Por favor, preencha este Cadastro com as informações necessárias</h3>
-    </header>
-    <form action="obrigado_por_criar.html" method="get">
-        <fieldset>
-            <label for="Nome_de_Usuario">Nome de Usuário:<br><input id="Nome_de_Usuario" name="Nome de Usuário" type="text" required></label>
-            <br>
-            <label for="Email">Email:<br> <input id="Email" name="Email" type="text" required></label>
-            <br>
-            <label for="Senha">Senha:<br> <input id="Senha" name="Senha" type="password" required></label>
-            <br>
-            <label for="Confirma_sua_Senha">Confirme sua Senha:<br> <input id="Confirma_sua_Senha" name="Senha" type="password" required></label>
+    <div class="principal">
+        <h2>Cadastro</h2>
+        <div class="segundario">
+            <form action="Login.html">
+                <fieldset>
 
-            <input class="submit" type="submit" value="Criar Conta">
-        </fieldset>
-    </form>
-        
+                    <input id="Nome_de_Usuario" class="transi"  name="Email ou Nome de Usuário" type="text" required  placeholder="Nome de Usuário"><br>
+                    <input id="Email" class="transi"  name="email" type="text" required  placeholder="Email"><br>
+                    <input id="Senha" class="transi" name="Senha" type="password" required  placeholder="Senha">
+
+                    <input class="submit" type="submit" value="Login">
+                        <h3>Tem Conta na Clicker Storm?&nbsp&nbsp<a href="login.html">Login</a></h3>
+                </fieldset>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

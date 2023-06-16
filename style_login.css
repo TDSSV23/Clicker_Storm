@@ -21,6 +21,15 @@ h3 {
     color:rgb(145, 145, 145);
 }
 
+/*Trancisão*/
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+  }
+  .transi:hover {
+    transform: translateY(8px);
+  }
+
 /*Divs Principais*/
 .principal {
     padding-top: 10px;
@@ -61,10 +70,10 @@ input[type="submit"] {
     margin: 0.5em auto;
     height: 2em;
     font-size: 1rem;
-    background-color: #000000;
-    border-color: #2e2e2e;
-    min-width: 350px;
-    border-radius: 5px;
+    background-color:rgb(49, 49, 49);
+    border-color:#ffffff;
+    min-width: 150px;
+    border-radius: 12px;
   }
 
 input[type="text"] {
