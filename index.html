@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style_home.css">
     <script src="JavaS.js"></script>
-    <link rel="icon" href="img/Logo_do_Site.png">
+    <link rel="icon" href="img/Logo_beatriz_limpa.png">
 </head>
 <body>
     <!-- Barra de navegação vertical -->
@@ -24,31 +24,37 @@
             <a href="#"><img src="img/Vector.png" alt="Imagem ícone configurações"> Configurações</a>
         </div>
     <!-- Barra de navegação horizontal-->
-        <ul>
-            <li><span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="margem transi" src="img/Logo_do_Site.png" alt="Imagem da logo do site"></span></li>
-            <li class="transi"><a href="index.html">• Ação</a></li>
-                <li class="transi"><a href="index.html">• Aventura</a></li>
-                <li class="transi"><a href="index.html">• Terror</a></li>
-                <li class="transi"><form><select id="referrer" name="referrer" class="Temas" required>
-                        <option class="temas2" value="0">• Mais</option>
+        <div class="horizontal-nav">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="margem transi" src="img/Logo_beatriz_limpa.png" alt="Imagem da logo do site" height="112"></span>
+            <div class="opções">
+                <a class="transi" href="#">• Aventura</a>
+                <a class="transi" href="#">• Ação</a>
+                <a class="transi" href="#">• Terror</a>
+                <form>
+                    <select id="referrer" name="referrer" required>
+                        <option class="temas2" value="0">• Outras Categorias</option>
                         <option class="temas2" value="1">RPG</option>
                         <option class="temas2" value="2">Estratégia</option>
                         <option class="temas2" value="3">Simulação</option>
-                    </select></li></form>
-                    
-                <li class="transi" style="float:right"><a class="bordinha" href="cadastro.html">Cadastre-se</a></li>
-                <li class="transi" style="float:right"><a class="bordinha2" href="Login.html">Login</a></li>
-            
-        </ul>
-    <!-- Jogos 1-->
-    <div class="tudão borda">   
-        <div class="Jogo_da_Velha">
-            <a href="./Games2/Jogo_da_Cobra/IndexCobra.html"><img class="transi" src="img/Cobrinha_logo.png" alt="Imagem do jogo campo minado"></a>
+                    </select>
+                </form>
+                <div class="botões">
+                    <a style="float:right" class="transi bordinha" href="cadastro.html">Cadastre-se</a>
+                    <a style="float:right" class="transi bordinha2" href="Login.html">Login</a>
+                </div>
+            </div>
         </div>
-        <div class="demais-jogos">
-            <div class="j1-j2">
-                <a href="./Games2/Jogo_da _Velha/indexVelha.html"><img class="transi" src="img/Velha_logo.png" alt="Imagem do jogo da cobrinha"></a>
-                <a href="./Games2/Campo_Minado/IndexMinado.html"><img class="transi" src="img/Campo_minado_logo.png" alt="Imagem do jogo Campo Minado"></a>
+    <!-- Jogos 1-->
+    <div class="main">
+        <div class="tudão borda" >   
+            <div class="Jogo_da_cobrinha img_cobrinha">
+                <a href="./Games2/Jogo_da_Cobra/IndexCobra.html"><img class="transi" src="img/Cobrinha_logo.png" alt="Imagem do jogo campo minado"></a>
+            </div>
+            <div class="demais-jogos">
+                <div class="j1-j2">
+                    <a href="./Games2/Jogo_da _Velha/indexVelha.html"><img class="transi" src="img/Velha_logo.png" alt="Imagem do jogo da cobrinha"></a>
+                   <a href="./Games2/Campo_Minado/IndexMinado.html"><img class="transi" src="img/Campo_minado_logo.png" alt="Imagem do jogo Campo Minado"></a>
+                </div>
             </div>
         </div>
     </div>
