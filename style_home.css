@@ -1,6 +1,9 @@
 /* QUALQUER COISA DIMINUI O TAMANHO DE ACORDO COM A RESOLUÇÃO DO NOTE*/
 body {
-    background-color: #717171;
+    background-image: url("img/Background2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: inter;
     font-weight: 900;
     color: #FFF;
@@ -54,32 +57,13 @@ body {
     margin-top: 140px;
   }
 
-  /* ul {
-    background-color: black;
-    border: 1px solid black;
-    list-style-type: none;
-    margin: -8px -7px 10px -10px;
-    overflow: hidden;
-  }
-  li {
-    float: left;
-    font-size: 30px
-  }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } */
-
-
 .horizontal-nav {
   display: flex;
   flex-direction: row;
   text-align: center;
   gap: 40px;
-  background-color: black;
+  background-color: #111111;
+  border: 3px solid black;
   top: 0;
   width: 100%;
   position: fixed;
@@ -120,7 +104,7 @@ form {
 select {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #111111;
   color: white;
   border: none;
   font-size: 24px;
@@ -129,7 +113,7 @@ select {
 }
 
 option {
-  background-color: #111;
+  background-color: #111111;
   color: white;
   font-size: 16px;
   border: none;
