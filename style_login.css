@@ -1,38 +1,58 @@
 body {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
     background-size: cover;
-    color: white;
-    font-family: Inter;
+    font-family:Inter;
+    font-weight: 700;
 }
 
+/*Links*/
+a {
+    color: rgb(255, 255, 255);
+}
+/*Fontes*/
+h2 {
+    font-size: 40px;
+    padding-bottom: -7px;
+    color:white;
+}
+
+h3 {
+    font-size: 15px;
+    color:rgb(145, 145, 145);
+}
+
+/*Divs Principais*/
+.principal {
+    padding-top: 10px;
+    resize: none;
+    background:rgb(49, 49, 49);
+    font-family:Inter;
+    border: 0;
+    border: none;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+    width: 420px;
+    margin-top: 85px;
+}
+
+.segundario {
+    border-top: 3px solid #2626265a;
+}
+
+
+/*Botoes*/
 input, textarea {
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
+    background-color: #000000;
+    border: 1px solid #525252;
+    border-bottom: 1px solid white;
     color: #ffffff;
 }
 
 fieldset {
     border:none;
-    padding: 3.6rem 0;
-    vertical-align: middle;
-}
-
-label {
-    display: block;
-    margin: 0.5rem 0;
-    font-size: 2rem;
-    padding: 1rem;
-}
-
-input {
-    font-size: 1.5rem;
-}
-
-input, textarea {
-    background-color: rgba(83, 79, 79, 0.596);
-    border: 1px solid #534F4F;
-    color: #ffffff;
 }
 
 input[type="submit"] {
@@ -40,48 +60,29 @@ input[type="submit"] {
     width: 0.5%;
     margin: 0.5em auto;
     height: 2em;
-    font-size: 1.3rem;
-    background-color: #328B2A;
-    border-color: #328B2A;
-    min-width: 300px;
+    font-size: 1rem;
+    background-color: #000000;
+    border-color: #2e2e2e;
+    min-width: 350px;
     border-radius: 5px;
-    margin: 0 0 0 370px;
-}
+  }
 
-  input[type="text"] {
+input[type="text"] {
+    width: 35%;
     margin-top: 1rem;
     margin-bottom: 1em;
-    border-radius: 5px;
-}
+    align-items: center;
+    width: 350px;
+  }
 
-.center {
-    text-align: center;
-}
 
-.parede {
-    padding-left: 100px;
+/*ID*/
+/*Botão da Senha*/
+#Senha {
+    font-size: 15px;
+    width: 350px;
 }
-
-.labelzada {
-    display: flex;
-    flex-direction: column;
-}
-
-.qrcode {
-    margin: 130px 160px;
-    display: flex;
-    flex-direction: row;
-}
-
-.login {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(19, 18, 18, 0.3);
-    border: 1px solid #252525;
-    color: #ffffff;
-    border-radius: 36px;
-}
-
-a {
-    text-decoration: none;
+/*Botão do Usuario*/
+#Nome_de_Usuario {
+    font-size: 17px;
 }
