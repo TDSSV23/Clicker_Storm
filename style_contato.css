@@ -1,119 +1,114 @@
 body {
-    background-image: url("img/Background2.png");
-    background-repeat: no-repeat;
+    background-image: url(img/Background2.png);
     background-size: cover;
-    color:#ffffff;
     font-family:Inter;
     font-weight: 700;
 }
-input, textarea {
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
-    color: #ffffff;
+
+/*Links*/
+a {
+    color: rgb(255, 255, 255);
 }
-fieldset {
-    border:none;
-    padding: 3.6rem 0;
-    vertical-align: middle;
-}
-label {
-    display: block;
-    margin: 0.5rem 0;
-    font-size: 2rem;
-    padding: 1rem;
-}
-input {
-    font-size: 1.5rem;
+/*Fontes*/
+h2 {
+    font-size: 33px;
+    padding-bottom: -7px;
+    color:white;
 }
 
+h3 {
+    font-size: 15px;
+    color:rgb(145, 145, 145);
+}
+
+/*Trancisão*/
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+  }
+  .transi:hover {
+    transform: translateY(8px);
+  }
+
+/*Divs Principais*/
+.principal {
+    padding-top: 10px;
+    resize: none;
+    background:rgb(49, 49, 49);
+    font-family:Inter;
+    border: 0;
+    border: none;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+    width: 500px;
+    margin-top: 85px;
+}
+
+.segundario {
+    border-top: 3px solid #2626265a;
+}
+
+
+/*Botoes*/
 input, textarea {
-    background-color: rgba(36, 34, 34, 0.596);
-    border: 1px solid #252525;
+    background-color: #000000;
+    border: 1px solid #525252;
+    border-bottom: 1px solid white;
     color: #ffffff;
 }
-input[type="text"] {
-    width: 35%;
-    margin-top: 1rem;
-    margin-bottom: 1em;
-    border-radius: 26px;
+
+fieldset {
+    border:none;
 }
-button[type="submit"] {
+
+input[type="submit"] {
     display: block;
     width: 0.5%;
     margin: 0.5em auto;
     height: 2em;
-    font-size: 1.3rem;
-    background-color: #328B2A;
-    border-color: #328B2A;
-    min-width: 300px;
-    border-radius: 36px;
+    font-size: 1rem;
+    background-color:rgb(49, 49, 49);
+    border-color:#ffffff;
+    min-width: 150px;
+    border-radius: 12px;
   }
-/*Class*/
-.Temas {
-    display: block;
-    margin: 0.5rem 0;
-    padding-left: 12px;
-    font-size: 35px;
-    resize: none;
-    background:rgba(1, 0, 0, 0.509);
-    font-family:Inter;
-    color: white;
-    width: 250px;
-    border: 0;
-    border: none;
-    border-radius: 36px;
 
-}
-.contato {
-    background-color: rgba(19, 18, 18, 0.226);
-    border: 1px solid #252525;
-    color: #ffffff;
-    border-radius: 36px;
-}
-.imagem1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+input[type="text"] {
+    width: 35%;
+    margin-top: 1rem;
+    margin-bottom: 1em;
     align-items: center;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 10px;
-}
+    width: 350px;
+  }
 
-/*Id*/
+input[type="email"] {
+    width: 35%;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    align-items: center;
+    width: 350px;
+  }
+
+/*ID*/
+/*Botão da Senha*/
+#Email {
+    font-size: 17px;
+    width: 350px;
+}
+/*Botão do Usuario*/
+#Nome_de_Usuario {
+    font-size: 17px;
+}
+/*Botão da Mensagem*/
 #Mensagem {
-    width: 100%;
-    height: 150px;
+    height: 135px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid rgba(1, 0, 0, 0.098);
     border-radius: 4px;
-    background-color:rgba(36, 34, 34, 0.596);
-    font-size: 16px;
+    font-size: 17px;
     resize: none;
 }
 
-#borda {
-    border: solid white 1px;
-}
-#branco {
-    color:white;
-}
-#h1 {
-    font-size: 2.5rem;
-    text-align: center;
-}
-#h3 {
-    font-size: 2rem;
-    text-align: center;
-}
-a {
-    text-decoration: none;
-}
-
-.cor {
-    color: white;
-    border: none;
-}
