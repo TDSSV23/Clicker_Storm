@@ -3,6 +3,7 @@ let canvas = document.getElementById("gamesnake");
 let context = canvas.getContext("2d");
 let box = 32;
 let pontos = 0;
+let blue = "url('img/pacman.png')";
 
 // kobrinha
 let snake = [];
@@ -32,8 +33,7 @@ function criarBG() {
 // cria kobrinha
 function criaCobrinha (){
     for(i = 0; i < snake.length; i++) {
-        context.fillStyle = "blue"
-        
+        context.fillStyle = "blue";
         context.fillRect(snake[i].x, snake[i].y, box, box)
     }
 }
@@ -58,23 +58,22 @@ function update(event) {
 // função principal
 function iniciarJogo() {
     if (snake[0].x > 15*box && direction == "right") {
-        snake[0].x = 0;
+        clearInterval(jogo);
     }
     if (snake[0].x < 0 && direction == "left") {
-        snake[0].x = 16 * box;
+        clearInterval(jogo);
     }
     if (snake[0].y > 15*box && direction == "down") {
-        snake[0].y = 0;
+        clearInterval(jogo);
     }
     if (snake[0].y < 0 && direction == "up") {
-        snake[0].y = 16 * box;
+        clearInterval(jogo);
     }
 
     for (i = 1; i < snake.length; i++) {
         document.getElementById("pnts").innerText = pontos + " pontos" 
         if (snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(jogo);
-            alert('Game Over >:O')
         }
     }
 
