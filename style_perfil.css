@@ -69,7 +69,7 @@ button[type="submit"] {
 .borda {
     display: flex;
     flex-direction: row;
-    border: 2px solid rgba(0, 0, 0, 0.01);
+    border: 2px solid rgba(131, 121, 121, 0.01);
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
@@ -94,4 +94,8 @@ button[type="submit"] {
 
   .transi:hover {
     transform: translateY(8px);
+}
+
+.tamanho {
+    
 }
