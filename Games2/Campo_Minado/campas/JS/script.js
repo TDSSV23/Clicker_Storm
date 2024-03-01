@@ -81,6 +81,7 @@ function bandeira(event) {
     return false;
 }
 
+// dificuldade
 function init() {
     tabela = document.getElementById("tabela");
     tabela.onclick = verificar;
