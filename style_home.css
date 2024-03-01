@@ -135,6 +135,7 @@ option {
     text-decoration: none;
   }
   .bordinha2:hover {
+    transition: all 0,5 ease-in;
   }
   .bordinha {
     border: 2px solid #FC366C;
